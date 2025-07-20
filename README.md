@@ -11,12 +11,12 @@ get_frames_from_image.py
 - frames_raw: raw .png iamges of the frames
 - labels_json: .json labeled for labelme
 - labels_txt: YOLO formatted labels
-- train:
+- train: .png images along with corresponding .txt label files
+- test: all images that are unlabelled and not in the train folder
 - yolo_data:
-    - images:
-    - labels:
-    - data.yaml
-- runs:
-    - detect:
-      - predict_master:
-      - train
+    -- images: 
+    -- labels:
+    -- data.yaml: 
+- runs/detect:
+    - predict_master:
+    - train:
