@@ -13,10 +13,10 @@ get_frames_from_image.py
 - labels_txt: YOLO formatted labels
 - train:
 - yolo_data:
-    -- images:
-    -- labels:
-    -- data.yaml
+    - images:
+    - labels:
+    - data.yaml
 - runs:
-    -- detect:
-            -- predict_master:
-            -- train
+    - detect:
+            - predict_master:
+            - train
