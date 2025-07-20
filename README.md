@@ -18,5 +18,5 @@ get_frames_from_image.py
     - data.yaml
 - runs:
     - detect:
-            - predict_master:
-            - train
+      - predict_master:
+      - train
